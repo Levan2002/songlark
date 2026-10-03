@@ -153,41 +153,43 @@ strong { font-weight: 700; }
   position: absolute; inset: 0; z-index: -1;
   background: linear-gradient(90deg, #5B2A6E 0%, var(--crimson) 52%, var(--accent) 100%);
   -webkit-mask-image:
-    radial-gradient(ellipse 3.2% 10% at 6% 62%, #000 60%, transparent 72%),
-    radial-gradient(ellipse 2.2% 16% at 10.5% 48%, #000 55%, transparent 72%),
-    radial-gradient(ellipse 4.5% 7% at 15% 34%, #000 60%, transparent 75%),
-    radial-gradient(ellipse 1.6% 22% at 22% 52%, #000 50%, transparent 72%),
-    radial-gradient(ellipse 1.6% 20% at 25.5% 48%, #000 50%, transparent 72%),
-    radial-gradient(ellipse 1.6% 18% at 29% 44%, #000 50%, transparent 72%),
-    radial-gradient(ellipse 5% 6% at 36% 70%, #000 55%, transparent 75%),
-    radial-gradient(ellipse 3% 12% at 43% 30%, #000 55%, transparent 72%),
-    radial-gradient(ellipse 2.4% 9% at 47.5% 40%, #000 55%, transparent 72%),
-    radial-gradient(ellipse 6% 5% at 55% 58%, #000 55%, transparent 75%),
-    radial-gradient(ellipse 1.4% 24% at 62% 50%, #000 50%, transparent 72%),
-    radial-gradient(ellipse 1.4% 21% at 65% 46%, #000 50%, transparent 72%),
-    radial-gradient(ellipse 4% 8% at 72% 28%, #000 55%, transparent 75%),
-    radial-gradient(ellipse 2.6% 14% at 79% 60%, #000 55%, transparent 72%),
-    radial-gradient(ellipse 2.6% 12% at 83% 52%, #000 55%, transparent 72%),
-    radial-gradient(ellipse 5% 6% at 90% 36%, #000 55%, transparent 75%),
-    radial-gradient(ellipse 2% 15% at 96% 56%, #000 55%, transparent 72%);
+    linear-gradient(to top, rgb(0 0 0 / 0.45) 0 5%, rgb(0 0 0 / 0.12) 12%, transparent 20%),
+    radial-gradient(ellipse 3.2% 13.0% at 6% 62%, #000 60%, transparent 72%),
+    radial-gradient(ellipse 2.2% 20.8% at 10.5% 48%, #000 55%, transparent 72%),
+    radial-gradient(ellipse 4.5% 9.1% at 15% 34%, #000 60%, transparent 75%),
+    radial-gradient(ellipse 1.6% 28.6% at 22% 52%, #000 50%, transparent 72%),
+    radial-gradient(ellipse 1.6% 26.0% at 25.5% 48%, #000 50%, transparent 72%),
+    radial-gradient(ellipse 1.6% 23.4% at 29% 44%, #000 50%, transparent 72%),
+    radial-gradient(ellipse 5% 7.8% at 36% 70%, #000 55%, transparent 75%),
+    radial-gradient(ellipse 3% 15.6% at 43% 30%, #000 55%, transparent 72%),
+    radial-gradient(ellipse 2.4% 11.7% at 47.5% 40%, #000 55%, transparent 72%),
+    radial-gradient(ellipse 6% 6.5% at 55% 58%, #000 55%, transparent 75%),
+    radial-gradient(ellipse 1.4% 31.2% at 62% 50%, #000 50%, transparent 72%),
+    radial-gradient(ellipse 1.4% 27.3% at 65% 46%, #000 50%, transparent 72%),
+    radial-gradient(ellipse 4% 10.4% at 72% 28%, #000 55%, transparent 75%),
+    radial-gradient(ellipse 2.6% 18.2% at 79% 60%, #000 55%, transparent 72%),
+    radial-gradient(ellipse 2.6% 15.6% at 83% 52%, #000 55%, transparent 72%),
+    radial-gradient(ellipse 5% 7.8% at 90% 36%, #000 55%, transparent 75%),
+    radial-gradient(ellipse 2% 19.5% at 96% 56%, #000 55%, transparent 72%);
           mask-image:
-    radial-gradient(ellipse 3.2% 10% at 6% 62%, #000 60%, transparent 72%),
-    radial-gradient(ellipse 2.2% 16% at 10.5% 48%, #000 55%, transparent 72%),
-    radial-gradient(ellipse 4.5% 7% at 15% 34%, #000 60%, transparent 75%),
-    radial-gradient(ellipse 1.6% 22% at 22% 52%, #000 50%, transparent 72%),
-    radial-gradient(ellipse 1.6% 20% at 25.5% 48%, #000 50%, transparent 72%),
-    radial-gradient(ellipse 1.6% 18% at 29% 44%, #000 50%, transparent 72%),
-    radial-gradient(ellipse 5% 6% at 36% 70%, #000 55%, transparent 75%),
-    radial-gradient(ellipse 3% 12% at 43% 30%, #000 55%, transparent 72%),
-    radial-gradient(ellipse 2.4% 9% at 47.5% 40%, #000 55%, transparent 72%),
-    radial-gradient(ellipse 6% 5% at 55% 58%, #000 55%, transparent 75%),
-    radial-gradient(ellipse 1.4% 24% at 62% 50%, #000 50%, transparent 72%),
-    radial-gradient(ellipse 1.4% 21% at 65% 46%, #000 50%, transparent 72%),
-    radial-gradient(ellipse 4% 8% at 72% 28%, #000 55%, transparent 75%),
-    radial-gradient(ellipse 2.6% 14% at 79% 60%, #000 55%, transparent 72%),
-    radial-gradient(ellipse 2.6% 12% at 83% 52%, #000 55%, transparent 72%),
-    radial-gradient(ellipse 5% 6% at 90% 36%, #000 55%, transparent 75%),
-    radial-gradient(ellipse 2% 15% at 96% 56%, #000 55%, transparent 72%);
+    linear-gradient(to top, rgb(0 0 0 / 0.45) 0 5%, rgb(0 0 0 / 0.12) 12%, transparent 20%),
+    radial-gradient(ellipse 3.2% 13.0% at 6% 62%, #000 60%, transparent 72%),
+    radial-gradient(ellipse 2.2% 20.8% at 10.5% 48%, #000 55%, transparent 72%),
+    radial-gradient(ellipse 4.5% 9.1% at 15% 34%, #000 60%, transparent 75%),
+    radial-gradient(ellipse 1.6% 28.6% at 22% 52%, #000 50%, transparent 72%),
+    radial-gradient(ellipse 1.6% 26.0% at 25.5% 48%, #000 50%, transparent 72%),
+    radial-gradient(ellipse 1.6% 23.4% at 29% 44%, #000 50%, transparent 72%),
+    radial-gradient(ellipse 5% 7.8% at 36% 70%, #000 55%, transparent 75%),
+    radial-gradient(ellipse 3% 15.6% at 43% 30%, #000 55%, transparent 72%),
+    radial-gradient(ellipse 2.4% 11.7% at 47.5% 40%, #000 55%, transparent 72%),
+    radial-gradient(ellipse 6% 6.5% at 55% 58%, #000 55%, transparent 75%),
+    radial-gradient(ellipse 1.4% 31.2% at 62% 50%, #000 50%, transparent 72%),
+    radial-gradient(ellipse 1.4% 27.3% at 65% 46%, #000 50%, transparent 72%),
+    radial-gradient(ellipse 4% 10.4% at 72% 28%, #000 55%, transparent 75%),
+    radial-gradient(ellipse 2.6% 18.2% at 79% 60%, #000 55%, transparent 72%),
+    radial-gradient(ellipse 2.6% 15.6% at 83% 52%, #000 55%, transparent 72%),
+    radial-gradient(ellipse 5% 7.8% at 90% 36%, #000 55%, transparent 75%),
+    radial-gradient(ellipse 2% 19.5% at 96% 56%, #000 55%, transparent 72%);
 }
 .sonogram::after {
   content: ""; position: absolute; inset: 0;
@@ -205,14 +207,14 @@ strong { font-weight: 700; }
   box-shadow: 0 4px 14px rgb(0 0 0 / 0.35);
 }
 .sonogram .pin::after {
-  content: ""; position: absolute; left: 50%; top: 100%; width: 1.5px; height: 14px;
+  content: ""; position: absolute; left: 50%; top: 100%; width: 1.5px; height: var(--stem, 14px);
   background: var(--stage-ink); opacity: 0.6;
 }
 .sonogram .pin small { font-weight: 700; color: var(--ink-2); margin-left: 0.35rem; font-size: 0.72rem; }
 @media (prefers-color-scheme: dark) { .sonogram .pin small { color: #6E5F73; } }
-.pin-a { left: 24%; top: 4%; }
-.pin-b { left: 64%; top: 4%; }
-@media (max-width: 560px) { .pin-b { display: none; } .pin-a { left: 30%; } }
+.pin-a { left: 25.5%; top: 6%; --stem: clamp(14px, 3vw, 28px); }
+.pin-b { left: 63.5%; top: 6%; --stem: clamp(14px, 3vw, 26px); }
+@media (max-width: 560px) { .pin-b { display: none; } }
 
 /* Main content */
 main { padding-block: clamp(1.5rem, 4vw, 2.5rem) clamp(3rem, 7vw, 5rem); }
