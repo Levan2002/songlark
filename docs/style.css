@@ -309,3 +309,6 @@ main > .wrap > section:first-child > h2:first-child { margin-top: 0.6em; }
 @media (prefers-color-scheme: dark) {
   .hero { border-bottom: 1px solid var(--rule); }
 }
+
+/* Reading pages: hero title and text share one centred column. */
+.page-hero .wrap, .wrap.prose { width: min(100% - 2rem, var(--measure)); max-width: none; }
