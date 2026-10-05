@@ -312,3 +312,25 @@ main > .wrap > section:first-child > h2:first-child { margin-top: 0.6em; }
 
 /* Reading pages: hero title and text share one centred column. */
 .page-hero .wrap, .wrap.prose { width: min(100% - 2rem, var(--measure)); max-width: none; }
+
+/* Guides */
+.crumbs { font-size: 0.92rem; color: var(--stage-ink-2); margin: 0 0 0.9rem; }
+.crumbs a { color: var(--stage-ink-2); }
+.crumbs a:hover { color: var(--stage-ink); }
+.btn-cta { background: var(--accent); color: var(--stage); }
+.btn-cta:hover { background: #FF935F; color: var(--stage); }
+.guide-cta { margin: 0 0 1.5rem; }
+.guide-cta-top .btn { min-height: 40px; padding: 0.4rem 1rem; font-size: 0.95rem; }
+.guide-end { background: var(--paper-2); border-left: 4px solid var(--accent); border-radius: 0 12px 12px 0; padding: 1rem 1.1rem 0.25rem; margin: 2rem 0 0; }
+.guide-end .guide-cta { margin: 0 0 0.9rem; }
+.guide-list { list-style: none; padding: 0; margin: 1rem 0; display: grid; gap: 0.75rem; }
+.guide-list li { margin: 0; }
+.guide-list a { display: block; text-decoration: none; background: var(--card); border: 1px solid var(--rule); border-radius: 14px; padding: 0.85rem 1rem; color: var(--ink); }
+.guide-list a:hover { border-color: var(--accent); color: var(--ink); }
+.guide-list strong { display: block; font-family: var(--font-round); font-weight: 800; color: var(--link); }
+.guide-list span { color: var(--ink-2); font-size: 0.95rem; }
+.guide-more { color: var(--ink-2); font-size: 0.95rem; }
+.prose table { border-collapse: collapse; width: 100%; margin: 0 0 1.25rem; font-size: 0.97rem; }
+.prose th, .prose td { text-align: left; padding: 0.55rem 0.6rem 0.55rem 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.prose th { font-family: var(--font-round); font-weight: 800; }
+@media (max-width: 520px) { .prose table { display: block; overflow-x: auto; } }
